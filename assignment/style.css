@@ -1,0 +1,41 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+}
+
+h2 {
+    background-color: rgba(255,255,255,0.25);
+    padding: 20px;
+    margin-top: 0;
+}
+
+h3 {
+    background-color: rgba(0,0,0,0.25);
+    padding: 20px;
+}
+
+.info {
+    color: white;
+    width: 500px;
+    margin: 0 auto;
+    background: purple;
+    text-align: center;
+}
+
+.info img {
+    width: 100%;
+    border-radius: 50%;
+    transition: all 200ms ease-in-out;
+    opacity: 75%; 
+}
+
+img:hover {
+    opacity: 1;
+    margin: 20px 0 20px 0;
+    transform: scale(1.1);
+    transition: all 200ms ease-in-out; 
+}
